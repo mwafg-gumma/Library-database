@@ -49,4 +49,4 @@ You can use the following queries to test the relationships and data:
 SELECT B.title, A.first_name, A.last_name
 FROM Books AS B
 JOIN Authors AS A ON B.author_id = A.author_id
-WHERE A.last_name = 'محفوظ';
+WHERE A.last_name = 'Mohamed';
